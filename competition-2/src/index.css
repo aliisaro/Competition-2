@@ -1,0 +1,80 @@
+body {
+  font-family: sans-serif;
+}
+
+/*//////////RATING//////////*/
+.star-rating {
+  width: 300px;
+  padding-left: 30px;
+}
+.star-rating p {
+  font-size: 40px;
+  line-height: 0;
+}
+/*/ /////////RATING//////////*/
+
+/*/ /////////DRIVER CARD//////////*/
+.driver-card {
+  width: 900px;
+  height: 140px;
+  background-color: rgb(91, 91, 238);
+  overflow: hidden;
+  border-radius: 10px;
+  font-size: 25px;
+  color: white;
+  margin: 10px;
+}
+
+.driver-card .info {
+  display: flex;
+  width: 400px;
+  margin: auto;
+  margin-top: 18px;
+}
+
+.driver-card img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.driver-card ul {
+  margin: 10px;
+  padding-left: 10px;
+  list-style-type: none;
+  line-height: 1.2;
+}
+/*/ /////////DRIVER CARD//////////*/
+
+/*/ /////////LIKE BUTTON//////////*/
+
+.like-button button {
+  width: 100px;
+  height: 40px;
+  color: white;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.like-button button:hover {
+  border: 5px solid rgb(156, 206, 242);
+}
+/*/ /////////LIKE BUTTON//////////*/
+
+
+/*/ /////////CLICKABLE PICTURE//////////*/
+.clickable-picture img {
+  width: 300px;
+  height: 300px;
+}
+/*/ /////////CLICKABLE PICTURE//////////*/
+
+
+/*/ /////////DICE//////////*/
+.dice img {
+  width: 300px;
+  height: 300px;
+}
+/*/ /////////DICE//////////*/
+
